@@ -1,59 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-<style> 
-body {
-    background-color: #ffffff;
-    width: 100%;
-}
-h1, h2, p { 
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-} 
-div { 
-    background-image: linear-gradient(to right top, #ecd4ff, #ffc5eb, #ffb9bf, #ffbd87, #fbce59);
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-h1 { color: #000000;
+  
+  <style>
+      .header {
+          background-image: linear-gradient(to right top, #ecd4ff, #ffc5eb, #ffb9bf, #ffbd87, #fbce59);
+          }
+    h1 
+    {
+    color: #000000;
     font-size: 40px;
     padding-bottom: 3%;
     font-family: 'Gloria Hallelujah', cursive;
-}
-h2 { color: #000000;
+    }
+    h2 { color: #000000;
     font-size: 22px;
     font-weight: normal ;
     padding-top: 0%;
     font-family: "Lato";
     border-left: 5%;
     border-right: 5%;
-}
-p {
+    text-align: center
+    }
+    .second {
+    text-align: center;
     background-color: #fffff;
     padding-top: 5%;
     padding-bottom: 5%;
     border-left: 5%;
     border-right: 5%;
-    font-family: "Roboto"
-}
-</style> 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mariana's CV</title> 
+    font-family: "Lato"
+    }
+    .image {
+        text-align: center;
+    }
+  </style>
+  
 </head>
 <body>
-  <section>
-    <hgroup>
-     <div>
-        <h1>¿Quién es Mariana Ruiz de Chávez Tamayo?</h1>
-        <h2>¡Mucho gusto! Soy mucho más que una especialista digital</h2>
-      </div>
-      <p>Lograr el posicionamiento de marca a través de estrategias de contenido para medios digitales</p>
-      
-    </hgroup>
-  </section>
+<div class="container">
+  <div class="row header">
+    <div class="col-sm-4 foto">
+     <img src="" alt="Mariana Ruiz de Chávez"/> 
+    </div>
+    <div class="col-sm-8">
+      <h1>¿Quién es Mariana Ruiz de Chávez?</h1>
+      <h2>¡Mucho gusto! Soy mucho más que una especialista digital</h2>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row second">
+    <div class="col-sm-12">
+     <p>Lograr el posicionamiento de marca a través de estrategias de contenido para medios digitales</p>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
